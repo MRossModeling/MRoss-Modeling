@@ -1,0 +1,130 @@
+@font-face {
+    font-family: LittleDays;
+    src: url(/font/Orpheus\ Pro.ttf);
+}
+html{
+    background-color: #DaDEDF;
+    font-family: "LittleDays", sans-serif;
+}
+.transparent {
+    color: #333;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    line-height: 1.6; 
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    width: 100;
+    height: 10vh;
+    background-color: #f0f0f0;
+    font-weight: 900;
+}
+.but1{
+    border: none;
+    background-color: transparent;
+    font-size: 1vw;
+    color: black;
+}
+.but1H{
+    border:none;
+    background-color: transparent;
+    font-size: 1vw;
+    color: black;
+}
+@media (min-width: 16px) {
+    .but1H {
+        font-size: 16px; /* Minimum font size of 16px */
+    }
+    .but1 {
+        font-size: 16px; /* Minimum font size of 16px */
+    }
+    .but2 {
+        font-size: 20px; /* Minimum font size of 16px */
+    }
+}
+.name {
+    font-size: 3vw;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right {
+    display: flex;
+    margin-left: auto;
+}
+.left{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.image {
+    position: relative;
+    width: 100%;
+    height: 39vw;
+    background-image: url("../Image/BgImages.jpg");
+    background-size: cover;
+    background-position: center calc(50% - 5vh); /* Adjust the 20vh value as needed */
+    background-repeat: no-repeat;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Assuming white text color for visibility */
+    font-size: 5vw;
+    font-weight: 900;
+}
+.but2{
+    border: none;
+    background-color: transparent;
+    font-size: 2vw;
+    color: #fff;
+}
+.title{
+    color:black;
+    font-size: 5vw;
+}
+.logos{
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+.test{
+    width: 100%; /* Set the width to 100% for responsiveness */
+    max-width: 60vw; /* Set a maximum width to maintain some size limitation */
+    height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+}
+.logoT{
+    color:black;
+    font-size: 2vw;
+}
+a {
+    text-decoration:underline;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+p{
+    font-size: 2vw;
+    align-items: center;
+    color: #fff;
+}
+.but{
+    font-size: 2vw;
+    align-items: center;
+    color: #fff;
+}
+.footer{
+    padding-top: 10px;
+    background-color: #333;
+}
