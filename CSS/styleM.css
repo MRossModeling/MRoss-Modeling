@@ -1,0 +1,334 @@
+@font-face {
+    font-family: LittleDays;
+    src: url(../../font/Orpheus\ Pro.ttf);
+}  
+
+html {
+    background-color: #232627;
+    font-family: "LittleDays", sans-serif;
+    height: 100%; /* Ensure the html takes full height */
+    margin: 0;
+    padding: 0;
+}
+.transparent {
+    color: #333;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes full height */
+}
+.content {
+    flex: 1; /* Make the content area grow and take the available space */
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    font-weight: 900;
+}
+.but1{
+    border: none;
+    background-color: transparent;
+    font-size: 1vw;
+    color: #fff;
+    text-decoration:none;
+}
+.but1H{
+    border:none;
+    background-color: transparent;
+    font-size: 1vw;
+    color: #fff;
+}
+@media (min-width: 16px) {
+    .but1H, .but1, .but2 {
+        font-size: 16px; /* Minimum font size of 16px */
+    }
+}
+.name {
+    font-size: 3vw;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right {
+    display: flex;
+    margin-left: auto;
+}
+.left {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.col1 {
+    float: left;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4vw;
+}
+.box1 {
+    position: relative; /* Make sure the box is positioned relative to allow for child elements */
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure any overflowing content is hidden */
+}
+.box1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../modeling/sponserModeling/27-Pinkx/HoofFoto/IMG_6018.JPG");
+    background-size: cover;
+    background-position: center calc(50% - 0vh); /* Adjust the value as needed */
+    filter: blur(3px); /* Adjust the blur value as needed */
+    z-index: -1; /* Ensure the background stays behind any other content */
+}
+.box2 {
+    position: relative; /* Make sure the box is positioned relative to allow for child elements */
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure any overflowing content is hidden */
+}
+.box2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../modeling/sponserModeling/DRD-Photography/HoofFoto/_drd2757.jpg");
+    background-size: cover;
+    background-position: center calc(50% - -9vh); /* Adjust the value as needed */
+    filter: blur(3px); /* Adjust the blur value as needed */
+    z-index: -1; /* Ensure the background stays behind any other content */
+}
+.box3 {
+    position: relative; /* Make sure the box is positioned relative to allow for child elements */
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure any overflowing content is hidden */
+}
+.box3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../modeling/sponserModeling/Nine-muses-jewelry/HoofFoto/IMG_4224.JPG");
+    background-size: cover;
+    background-position: center calc(50% - 0vh); /* Adjust the value as needed */
+    filter: blur(3px); /* Adjust the blur value as needed */
+    z-index: -1; /* Ensure the background stays behind any other content */
+}
+.box4 {
+    position: relative; /* Make sure the box is positioned relative to allow for child elements */
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure any overflowing content is hidden */
+}
+.box4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../modeling/sponserModeling/ICON-Pure-Envy/HoofFoto/8BF3A2AE-3695-4EBA-95A6-BD718666E3E0.jpg");
+    background-size: cover;
+    background-position: center calc(50% - -8vh); /* Adjust the value as needed */
+    filter: blur(3px); /* Adjust the blur value as needed */
+    z-index: -1; /* Ensure the background stays behind any other content */
+}
+.box5 {
+    position: relative; /* Make sure the box is positioned relative to allow for child elements */
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure any overflowing content is hidden */
+}
+.box5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../modeling/sponserModeling/Jooste-Photography/HoofFoto/IMG_3363.JPG");
+    background-size: cover;
+    background-position: center calc(50% - -7vh); /* Adjust the value as needed */
+    filter: blur(3px); /* Adjust the blur value as needed */
+    z-index: -1; /* Ensure the background stays behind any other content */
+}
+.box6 {
+    position: relative; /* Make sure the box is positioned relative to allow for child elements */
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure any overflowing content is hidden */
+}
+.box6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../modeling/sponserModeling/Liezl-Visser-Photography/HoofFoto/IMG_1222.JPG");
+    background-size: cover;
+    background-position: center calc(50% - -6vh); /* Adjust the value as needed */
+    filter: blur(3px); /* Adjust the blur value as needed */
+    z-index: -1; /* Ensure the background stays behind any other content */
+}
+.box7 {
+    position: relative; /* Make sure the box is positioned relative to allow for child elements */
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure any overflowing content is hidden */
+}
+.box7::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../modeling/sponserModeling/Luna-hair-and-body/HoofFoto/IMG_4616.JPG");
+    background-size: cover;
+    background-position: center calc(50% - 0vh); /* Adjust the value as needed */
+    filter: blur(3px); /* Adjust the blur value as needed */
+    z-index: -1; /* Ensure the background stays behind any other content */
+}
+.box8 {
+    position: relative; /* Make sure the box is positioned relative to allow for child elements */
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure any overflowing content is hidden */
+}
+.box8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../modeling/sponserModeling/Frames-of-Mind/HoofFoto/IMG_2126.JPG");
+    background-size: cover;
+    background-position: center calc(50% - -10vh); /* Adjust the value as needed */
+    filter: blur(3px); /* Adjust the blur value as needed */
+    z-index: -1; /* Ensure the background stays behind any other content */
+}
+.box9 {
+    position: relative; /* Make sure the box is positioned relative to allow for child elements */
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure any overflowing content is hidden */
+}
+.box9::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../modeling/sponserModeling/Poala-B-photography/HoofFoto/AAAF11DA-0C9E-43B6-ABB0-E0DA31ADF0B8.jpg");
+    background-size: cover;
+    background-position: center calc(50% - -9vh); /* Adjust the value as needed */
+    filter: blur(3px); /* Adjust the blur value as needed */
+    z-index: -1; /* Ensure the background stays behind any other content */
+}
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vw;
+    overflow: hidden; /* to hide any parts of the image that exceed the box */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a raised effect */
+}
+.logos img {
+    height: 100%;
+    object-fit: cover;
+}
+.test{
+    width: 50%; /* Set the width to 100% for responsiveness */
+    max-width: 60vw; /* Set a maximum width to maintain some size limitation */
+}
+.logoT{
+    color:black;
+    font-size: 2vw;
+}
+.image {
+    position: relative;
+    width: 100%;
+    height: 90vw;
+    background-image: url("../Image/BgImages.jpg");
+    background-size: cover;
+    background-position: center calc(50% - 5vh); /* Adjust the 20vh value as needed */
+    background-repeat: no-repeat;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Assuming white text color for visibility */
+    font-size: 5vw;
+    font-weight: 900;
+}
+.but2{
+    border: none;
+    background-color: transparent;
+    font-size: 2vw;
+    color: #fff;
+}
+.title{
+    color:black;
+    font-size: 5vw;
+}
+a {
+    text-decoration:none;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+p, .but {
+    font-size: 3vw;
+    align-items: center;
+    color: #fff;
+}
+.footer {
+    width: 100%;
+    padding-top: 10px;
+    background-color: #333;
+    text-align: center;
+}
