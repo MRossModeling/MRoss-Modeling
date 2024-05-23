@@ -1,8 +1,7 @@
 @font-face {
     font-family: LittleDays;
-    src: url(../../font/Orpheus\ Pro.ttf);
-}  
-
+    src: url(../font/Orpheus-Pro.ttf);
+} 
 html {
     background-color: #232627;
     font-family: "LittleDays", sans-serif;
