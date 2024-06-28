@@ -326,8 +326,22 @@ p, .but {
     color: #fff;
 }
 .footer {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding-top: 10px;
     background-color: #333;
+    position: relative; /* To allow absolute positioning within */
+}
+.but, .transparent, .contact-info, .license-info {
     text-align: center;
+    margin: 10px 0;
+}
+.myLogo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-height: 40vw;
+    z-index: 1; /* Ensure it is on top */
 }
