@@ -70,3 +70,24 @@ a {
 .transparent {
     color: #3f3f3f;
 }
+.footer {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: #3f3f3f;
+    position: relative; /* To allow absolute positioning within */
+}
+.but, .transparent, .contact-info, .license-info {
+    text-align: center;
+    margin: 10px 0;
+}
+.myLogo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-height: 13vw;
+    z-index: 1; /* Ensure it is on top */
+}
