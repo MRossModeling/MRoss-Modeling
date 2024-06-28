@@ -69,6 +69,7 @@ a {
 }
 .transparent {
     color: #3f3f3f;
+    font-size: 1px;
 }
 .footer {
     color: #fff;
